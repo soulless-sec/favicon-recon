@@ -41,12 +41,6 @@ pip install -r requirements.txt
 chmod +x favicon-recon.py
 ```
 
-Or:
-
-```bash
-pip install requests mmh3 rich
-```
-
 ## Usage
 
 ```bash
@@ -83,31 +77,31 @@ Help:
 ### Shodan
 
 ```text
-http.favicon.hash:258202105
+http.favicon.hash:251235005
 ```
 
 ### FOFA
 
 ```text
-icon_hash="258202105"
+icon_hash="251235005"
 ```
 
 ### Censys — Legacy MD5
 
 ```text
-services.http.response.favicons.md5_hash="099dbd96f90bd5764e02ed658f1eb6d7"
+services.http.response.favicons.md5_hash="099dbgyt5645464340bd5f1eb6d7"
 ```
 
 ### Censys — Platform Host MD5
 
 ```text
-host.services.endpoints.http.favicons.hash_md5="099dbd96f90bd5764e02ed658f1eb6d7"
+host.services.endpoints.http.favicons.hash_md5="099dbgyt5645464340bd5f1eb6d7"
 ```
 
 ### Censys — Platform Web MD5
 
 ```text
-web.endpoints.http.favicons.hash_md5="099dbd96f90bd5764e02ed658f1eb6d7"
+web.endpoints.http.favicons.hash_md5="099dbgyt5645464340bd5f1eb6d7"
 ```
 
 ## How It Works
@@ -134,17 +128,6 @@ web.endpoints.http.favicons.hash_md5="099dbd96f90bd5764e02ed658f1eb6d7"
   Shodan      FOFA   Censys
 ```
 
-## Project Structure
-
-```text
-favicon-recon/
-|
-├── favicon-recon.py
-├── requirements.txt
-├── README.md
-├── LICENSE
-└── .gitignore
-```
 
 ## Requirements
 
