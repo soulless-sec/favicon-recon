@@ -35,7 +35,6 @@ BANNER = r"""
 
         F A V I C O N   R E C O N [/bold cyan] | [bold yellow] by soulless
 [/bold yellow]
-
 [bold magenta]          Shodan • FOFA • Censys Hash Generator[/bold magenta]
 """
 
