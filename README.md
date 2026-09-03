@@ -35,7 +35,7 @@
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/favicon-recon.git
+git clone https://github.com/soulless-sec/favicon-recon.git
 cd favicon-recon
 pip install -r requirements.txt
 chmod +x favicon-recon.py
